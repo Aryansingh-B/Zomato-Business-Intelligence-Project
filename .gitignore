@@ -1,0 +1,243 @@
+# ============================================================================
+# PYTHON
+# ============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ============================================================================
+# JUPYTER NOTEBOOK
+# ============================================================================
+
+.ipynb_checkpoints
+.jupyter/
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.ipynb
+
+# ============================================================================
+# ENVIRONMENT & VIRTUAL ENVIRONMENTS
+# ============================================================================
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ============================================================================
+# DATA FILES
+# ============================================================================
+
+# Raw data (CSV, JSON, etc.) - Keep directory structure, ignore contents
+data/raw/*
+data/cleaned/*
+data/processed/*
+!data/raw/.gitkeep
+!data/cleaned/.gitkeep
+!data/processed/.gitkeep
+
+# ============================================================================
+# MODEL FILES
+# ============================================================================
+
+# Serialized models
+models/*.pkl
+models/*.pickle
+models/*.h5
+models/*.joblib
+models/*.pt
+models/*.pth
+!models/.gitkeep
+
+# ============================================================================
+# REPORTS & OUTPUT
+# ============================================================================
+
+# Generated reports
+reports/*.pdf
+reports/*.html
+reports/*.xlsx
+reports/*.csv
+!reports/.gitkeep
+
+# Images
+images/eda_charts/*
+images/dashboard_screenshots/*
+!images/.gitkeep
+!images/eda_charts/.gitkeep
+!images/dashboard_screenshots/.gitkeep
+
+# ============================================================================
+# POWER BI
+# ============================================================================
+
+# Power BI temporary files and cache
+.pbix~
+.pbix.backup
+.pbitool.json
+PowerBI_cache/
+AnalysisServicesWorkspaces/
+*.pbix~
+*.report
+.cache/
+
+# ============================================================================
+# IDE & EDITOR
+# ============================================================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.*.swp
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Atom
+.atom/
+
+# ============================================================================
+# OS SPECIFIC
+# ============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+
+# ============================================================================
+# LOGS & TEMPORARY FILES
+# ============================================================================
+
+*.log
+*.log.*
+logs/
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# ============================================================================
+# DATABASE
+# ============================================================================
+
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+
+# PostgreSQL
+*.dump
+
+# ============================================================================
+# MISC
+# ============================================================================
+
+# Jupyter Kernel Specs
+/share/jupyter/kernels/
+
+# IPython Kernel
+kernel.json
+
+# MacOS
+.DS_Store
+
+# OS temp files
+*.tmp
+*.temp
+*.lock
+
+# Custom Python packages
+*.dist-info/
+
+# IDE Settings
+settings.json
+launch.json
+
+# Miscellaneous
+.DS_Store
+*.pyc
+__pycache__
+node_modules/
+.cache/
