@@ -8,26 +8,6 @@
 
 ---
 
-## 📋 Table of Contents
-
-1. [Project Overview](#project-overview)
-2. [Business Objectives](#business-objectives)
-3. [Architecture & Tech Stack](#architecture--tech-stack)
-4. [Project Structure](#project-structure)
-5. [Installation & Setup](#installation--setup)
-6. [Usage & Workflow](#usage--workflow)
-7. [Dataset Overview](#dataset-overview)
-8. [Exploratory Analysis Highlights](#exploratory-analysis-highlights)
-9. [Machine Learning Models](#machine-learning-models)
-10. [Power BI Dashboard](#power-bi-dashboard)
-11. [Key Findings & Recommendations](#key-findings--recommendations)
-12. [Results & Performance](#results--performance)
-13. [Future Improvements](#future-improvements)
-14. [Contributing Guidelines](#contributing-guidelines)
-15. [License](#license)
-
----
-
 ## 🎯 Project Overview
 
 This project simulates a real-world data science engagement at a food delivery platform. As the sole data scientist, you'll build a complete analytics infrastructure that enables Operations, Marketing, and Leadership teams to make data-driven decisions about:
