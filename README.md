@@ -1,4 +1,4 @@
-# 🍕 Zomato Business Intelligence & Delivery Time Prediction Platform
+# Zomato Business Intelligence & Delivery Time Prediction Platform
 
 **An Advanced Data Science Capstone Project**
 
