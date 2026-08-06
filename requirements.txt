@@ -1,38 +1,32 @@
-# Core Data Processing
-pandas==2.0.3
-numpy==1.24.3
+# ============================================================================
+# Zomato Business Intelligence Project - CORRECTED requirements.txt
+# ============================================================================
+# IMPORTANT: NO STRICT VERSION PINS - Let pip find compatible versions!
+# This prevents dependency conflicts that plagued the old file.
+# ============================================================================
 
-# Database
-psycopg2-binary==2.9.7  # PostgreSQL adapter
-SQLAlchemy==2.0.20
-mysql-connector-python==8.0.33
+# CORE DATA PROCESSING (ESSENTIAL)
+pandas
+numpy
 
-# Visualization
-matplotlib==3.7.2
-seaborn==0.12.2
-plotly==5.16.1
+# DATABASE (ESSENTIAL - PostgreSQL only)
+psycopg2-binary
+sqlalchemy
 
-# Machine Learning
-scikit-learn==1.3.0
-xgboost==2.0.0  # Optional, for gradient boosting
+# VISUALIZATION (ESSENTIAL)
+matplotlib
+seaborn
 
-# Model Persistence
-joblib==1.3.2
+# MACHINE LEARNING (ESSENTIAL)
+scikit-learn
+xgboost
 
-# Jupyter & Notebooks
-jupyter==1.0.0
-jupyterlab==4.0.5
-notebook==7.0.2
-ipython==8.14.0
+# JUPYTER NOTEBOOKS (ESSENTIAL)
+jupyter
+jupyterlab
 
-# Data Quality & Profiling
-pandas-profiling==3.6.3
+# UTILITIES (USEFUL)
+python-dotenv
+joblib
+tqdm
 
-# Statistics & Analysis
-scipy==1.11.2
-statsmodels==0.14.0
-
-# Utilities
-python-dotenv==1.0.0
-tqdm==4.66.1  # Progress bars
-requests==2.31.0
