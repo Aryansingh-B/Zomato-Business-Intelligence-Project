@@ -22,7 +22,7 @@ This project simulates a real-world data science engagement at a food delivery p
 
 ---
 
-## 🎓 Business Objectives
+## Business Objectives
 
 ### Primary Goals
 ✅ **Delivery Time Prediction**
@@ -54,7 +54,7 @@ This project simulates a real-world data science engagement at a food delivery p
 
 ---
 
-## 🏗️ Architecture & Tech Stack
+## Architecture & Tech Stack
 
 ### Data Pipeline Architecture
 ```
