@@ -8,7 +8,7 @@
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This project simulates a real-world data science engagement at a food delivery platform. As the sole data scientist, you'll build a complete analytics infrastructure that enables Operations, Marketing, and Leadership teams to make data-driven decisions about:
 
