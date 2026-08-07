@@ -1,9 +1,6 @@
 # ============================================================================
 # Zomato Business Intelligence Project - CORRECTED requirements.txt
 # ============================================================================
-# IMPORTANT: NO STRICT VERSION PINS - Let pip find compatible versions!
-# This prevents dependency conflicts that plagued the old file.
-# ============================================================================
 
 # CORE DATA PROCESSING (ESSENTIAL)
 pandas
