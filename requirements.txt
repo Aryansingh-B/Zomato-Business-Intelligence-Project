@@ -2,27 +2,26 @@
 # Zomato Business Intelligence Project - CORRECTED requirements.txt
 # ============================================================================
 
-# CORE DATA PROCESSING (ESSENTIAL)
-pandas
+# CORE DATA PROCESSING 
 numpy
 
-# DATABASE (ESSENTIAL - PostgreSQL only)
+# DATABASE 
 psycopg2-binary
 sqlalchemy
 
-# VISUALIZATION (ESSENTIAL)
+# VISUALIZATION 
 matplotlib
 seaborn
 
-# MACHINE LEARNING (ESSENTIAL)
+# MACHINE LEARNING 
 scikit-learn
 xgboost
 
-# JUPYTER NOTEBOOKS (ESSENTIAL)
+# JUPYTER NOTEBOOKS 
 jupyter
 jupyterlab
 
-# UTILITIES (USEFUL)
+# UTILITIES 
 python-dotenv
 joblib
 tqdm
