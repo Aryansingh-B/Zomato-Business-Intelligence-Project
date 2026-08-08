@@ -1,8 +1,8 @@
--- =====================================================================
+-- ==========================================================================
 -- ZOMATO BUSINESS INTELLIGENCE & DELIVERY TIME PREDICTION PLATFORM
 -- Database Schema (DDL)
 -- Target engine: PostgreSQL 14+  (MySQL 8+ notes given where syntax differs)
--- =====================================================================
+-- ==========================================================================
 -- Load order matters because of foreign keys:
 --   cities -> customers, restaurants, delivery_partners
 --   restaurants -> menu
