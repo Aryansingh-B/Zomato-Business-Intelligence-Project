@@ -19,7 +19,7 @@
 -- cleaned output into the constrained tables below. Attempting to load the
 -- raw files directly into these tables will correctly fail on some rows --
 -- that is expected and is part of the cleaning exercise.
--- =====================================================================
+-- ==========================================================================
 
 DROP TABLE IF EXISTS customer_feedback CASCADE;
 DROP TABLE IF EXISTS payments CASCADE;
