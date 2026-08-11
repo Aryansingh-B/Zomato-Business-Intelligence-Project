@@ -1,14 +1,14 @@
--- ======================================================================
+-- =====================================================================
 -- ZOMATO BUSINESS INTELLIGENCE & DELIVERY TIME PREDICTION PLATFORM
 -- Business Query Bank (run against the cleaned, constrained schema
 -- created in schema.sql)
 -- Target engine: PostgreSQL 14+  (MySQL-compatible notes inline)
--- ======================================================================
+-- =====================================================================
 
 
--- ======================================================================
+-- =====================================================================
 -- SECTION A: CORE QUERYING -- SELECT, WHERE, GROUP BY, ORDER BY, HAVING
--- ======================================================================
+-- =====================================================================
 
 -- A1. Top 10 restaurants by revenue in the last 6 months
 SELECT
